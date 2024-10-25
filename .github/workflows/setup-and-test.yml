@@ -15,10 +15,3 @@ jobs:
 
       - run: make install
       - run: make test
-
-        name: 'hello-from-hexlet-action'
-        description: 'Simple hello-world action'
-        author: 'Hexlet'
-        runs:
-          using: node20
-          main: dist/index.js
