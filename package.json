@@ -1,0 +1,23 @@
+{
+  "name": "hexlet-my-first-forkflow",
+  "version": "1.0.0",
+  "description": "Sum of 2 numbers, run test, run workflow",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/G3ntleM4n/hexlet-my-first-workflow.git"
+  },
+  "author": "A.S.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/G3ntleM4n/hexlet-my-first-workflow/issues"
+  },
+  "homepage": "https://github.com/G3ntleM4n/hexlet-my-first-workflow#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
