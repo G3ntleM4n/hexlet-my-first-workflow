@@ -11,4 +11,5 @@ jobs:
           node-version: '18.x'
           cache: 'npm'
 
-      - run: make say-hello
+      - run: make install
+      - run: make test
