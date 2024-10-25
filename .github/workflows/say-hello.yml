@@ -1,8 +1,8 @@
 # file: .github/workflows/say-hello.yml
-name: say-hello
+name: setup-and-test
 on: push
 jobs:
-  build:
+  setup-and-test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
