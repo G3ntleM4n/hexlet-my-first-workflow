@@ -7,9 +7,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
+      - name: Print Hello from Hexlet
+        uses: hexlet-components/hello-from-hexlet-action@release
         with:
           node-version: '18.x'
           cache: 'npm'
 
       - run: make install
       - run: make test
+
+        name: 'hello-from-hexlet-action'
+        description: 'Simple hello-world action'
+        author: 'Hexlet'
+        runs:
+          using: node20
+          main: dist/index.js
